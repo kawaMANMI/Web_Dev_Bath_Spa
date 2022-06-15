@@ -34,3 +34,14 @@
     width: 70%;
     text-align: justify;
   }
+
+  .triangle-right {
+    width: 400px;
+    height: 400px;
+    border-top: 30px solid transparent;
+    border-left: 20% solid rgb(243, 182, 102);
+    border-bottom: 30% solid transparent;
+    background-color: rgb(69, 177, 11);
+    padding: 10px;
+    z-index: -1;
+  }
