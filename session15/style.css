@@ -1,0 +1,10 @@
+#box {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    transition: 2s background-color linear;
+}
+
+#box.test {
+    background-color: rgb(63, 28, 160);
+}

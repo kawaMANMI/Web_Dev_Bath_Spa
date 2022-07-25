@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Basics</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <h1>How to add and remove a class with JS</h1>
+
+    <h3>Sentence:</h3>
+    <p id="sentence"></p>
+    <button onclick="changeSentence()">Click me</button>
+
+    <h3>Numbers:</h3>
+    <p id="numbers"></p>
+
+    <!-- <div id="box">demo box</div>
+    <button onclick="toggleClass()">Click me</button> -->
+
+
+    <script type="text/javascript">
+
+      let sentence = 'The quick brown fox jumps over the lazy dog';
+      const para = document.getElementById('sentence');
+      para.innerHTML = sentence;
+
+      function changeSentence(){
+           sentence = sentence + ' Some other text';
+           para.innerHTML = sentence;
+      }
+
+
+      function multiplyNumbers(a,b) {
+         const result = a * b;
+         document.getElementById('numbers').innerHTML = result;
+      }
+
+      multiplyNumbers(4,6);
+
+
+
+
+      //  const boxElement = document.getElementById('box'); 
+      //  console.log(boxElement);
+
+      //  function toggleClass() {
+      //    // code goes here
+      //    if (boxElement.classList.contains('test')) {
+      //       boxElement.classList.remove('test');
+      //    } else {
+      //       boxElement.classList.add('test');
+      //    }
+      //  }
+       
+    </script>
+</body>
+</html>

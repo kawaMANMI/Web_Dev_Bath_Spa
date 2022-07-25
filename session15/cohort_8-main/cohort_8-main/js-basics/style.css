@@ -1,0 +1,12 @@
+#box {
+    height:100px;
+    width: 100px;
+    transform: translateX(-100px);
+    background-color: red;
+    transition: 2s all linear;
+}
+
+#box.test {
+    background-color: blue;
+    transform: translateX(0);
+}
