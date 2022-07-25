@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Poppins:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+
+
+
+* {
+    padding: 0px;
+}
+
+
+.choice {
+    display: inline-block;
+}
+
+img {
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 0.5em;
+    margin: 1em;
+    width: 20%;
+    align-self: center;
+    transition: all .2s ease;
+}
+
+
+
+header h1 {
+    background-color: white;
+    color: rgb(21, 17, 34);
+    text-align: center;
+    font-family: Asap, sans-serif;
+    padding: 20px;
+    width: 100%;
+}
+
+
+body {
+    background-color: rgb(200, 200, 200);
+}
+
+.choices {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.score-board {
+    border: 3px solid rgb(16, 7, 7);
+    width: 200px;
+    margin: 20px auto;
+    font-size: 40px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    font-family: Asap, sans-serif;
+    position: relative;
+}
+
+.badge {
+    background-color: rgb(128, 43, 43);
+    color: white;
+    font-size: 20px;
+    padding: 4px 10px;
+}
+
+#user-label {
+    position: absolute;
+    top: 20px;
+    left: -30px;
+
+}
+
+#computer-label {
+    position: absolute;
+    top: 20px;
+    left: 180px;
+
+}
+
+.result,
+#action-message {
+    font-size: 40px;
+    font-family: Asap, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+img:hover {
+    background: rgb(111, 110, 110);
+    cursor: pointer;
+}
